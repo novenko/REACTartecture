@@ -85,7 +85,7 @@ function Overlay() {
 
       <div className="vert-text">
       <span>
-        TAKING PHOTOS TO UNDERSTAND 
+        TAKING PHOTOS TO UNDERSTAND,
         <br />WHAT OUR LIVES MEAN TO US.
       </span>
     </div>
