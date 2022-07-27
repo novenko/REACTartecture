@@ -5,7 +5,7 @@ import ArchitectureCard from "./ArchitectureCard";
 import { Posts } from '../data/ArchitectureData'
 
 const ArtecturePage = styled.div`
-background-color: ${props => props.theme.body};
+background-color: white;
 width: 100vw;
 height: 110vh;
 position: relative;

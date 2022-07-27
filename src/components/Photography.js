@@ -1,6 +1,5 @@
 import * as THREE from 'three'
 import React, { useRef, useState } from "react";
-import styled from 'styled-components';
 import LogoComponent from "../subComponents/LogoComponent";
 import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { Image, ScrollControls, Scroll, useScroll } from '@react-three/drei'
@@ -10,30 +9,6 @@ import { state, damp } from './util'
 import { Pin } from '../assets/allSvgs';
 import '../styles.css'
 
-const Box =  styled.div`
-  border: 2px solid ${(props) => props.theme.text};
-  border-radius: 1px;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
-  color: ${(props) => props.theme.text};
-  padding: 0.5rem;
-  width: 100vw;
-  height: 90vh;
-  z-index: 1;
-  line-height: 1.5;
-  font-family: monospace;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  justify-content: center;
-  align-items: center;
-  top: 3.5rem;
-  font-family: 'Ubuntu Mono', monospace;
-  font-size: calc(0.6rem + 1vw);
-  backdrop-filter: blur(4px);
-  overflow: hidden;
-  background: url('./assets/bg3.jpg');
-`
 function Item({ index, position, scale, c = new THREE.Color(), ...props }) {
   const ref = useRef()
   const scroll = useScroll()

@@ -30,7 +30,7 @@ const Box =  styled.div`
 `
 
 
-const MasterMonitor = () => {
+const ModernRestrooms = () => {
 
 return (
     <>
@@ -54,4 +54,4 @@ return (
   )
 }
 
-export default MasterMonitor
+export default ModernRestrooms

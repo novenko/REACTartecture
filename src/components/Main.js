@@ -78,10 +78,10 @@ const Main = () => {
                                 <p>Presents</p>
                             </header>
                             <main>
-                                <h3><i>SUMMER SESSIONS</i></h3>
+                                <h3><i>SESSIONS START</i></h3>
                             </main>
                             <section id="date">
-                                <div className="circle-item">1</div>
+                                <div className="circle-item">20th</div>
                                 <div className="circle-item">JULY</div>
                                 <div className="circle-item">2022</div>
                             </section>
@@ -114,19 +114,19 @@ const Main = () => {
                         </motion.h3>
                     </PROFILE>
                 <BottomBar>
-                    <ABOUT to="/architecture">
+                    <ABOUT to="/photography">
                         <motion.h3 whileHover={{scale: 1.1}}whileTap={{scale: 0.9}}
                         style={{ color: 'black', textDecoration:'none', fontSize: '1em' }}>
-                                architecture
+                                photography
                         </motion.h3>
                     </ABOUT>
-                    <PHOTOGRAPHY to="/photography">
+                    <PHOTOGRAPHY to="/architecture">
                         <motion.h3
                         whileHover={{scale: 1.1}}
                         whileTap={{scale: 0.9}}
                         style={{ color: 'black', textDecoration:'none', fontSize: '1em' }}
                         >
-                            photography 
+                            architecture 
                         </motion.h3>
                     </PHOTOGRAPHY>
                 </BottomBar>

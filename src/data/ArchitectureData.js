@@ -7,7 +7,8 @@ export const Posts = [
         tags:["Bath", "Dark","Modern"],
         date:"11 June, 2022",
         imgSrc:"img/Bathroom2.png",
-        link:"/architecture"
+        link:"/architecture/modernrestrooms",
+        readMore: "read more..."
     },
     {
         id:2,
@@ -15,7 +16,7 @@ export const Posts = [
         tags:["Custom", "Childsroom", "Playroom"],
         date:"04 June, 2022",
         imgSrc:"img/ChildRoom1.png",
-        link:"/architecture"
+        link:"/architecture",
     },
     {
         id:3,

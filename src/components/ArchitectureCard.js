@@ -5,7 +5,7 @@ import styled from "styled-components";
 const Box = styled(NavLink)`
 width: 45vw;
 text-decoration: none;
-height: 40rem;
+height: 30rem;
 padding: 1rem;
 color: ${props => props.theme.text};
 backdrop-filter: blur(2px);
@@ -53,12 +53,14 @@ padding-right: 0.5 rem;
 color: black;
 `
 const Date = styled.span`
-padding: 0.5rem 0;
+padding: 2.5rem 0;
 color: black;
 `
+
+
 //<Box target="_blank" to={{pathname: link}}>
 const ArchitectureCard = (props) => {
-    const {name, tags, date, imgSrc, link } = props.blog;
+    const {name, tags, date, imgSrc, link, readMore } = props.blog;
     return (
         <div className='box' target="_blank" to={{pathname: link}}>
             <Image img={imgSrc} />
@@ -71,10 +73,13 @@ const ArchitectureCard = (props) => {
                         return <Tag key={id}> #{t} </Tag>
                     })
                 }
-            </HashTags>
+            </HashTags> 
             <Date>
                 {date}
             </Date>
+            <div className="read-more">
+                {readMore}
+            </div>
         </div>
     )
 }

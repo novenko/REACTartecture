@@ -45,7 +45,7 @@ ul {
 	max-width: 700px;
 	top: 25px;
 	width: 35vw;
-	background-image: url("https://www.sicontis.com/codepen/cpc-knockout-text/trees-bkg.jpg");
+	background-image: url("https://images.unsplash.com/photo-1426543881949-cbd9a76740a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fG1vdXRhaW5zJTIwY291cGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
 	background-size: cover;
 	background-position-y: -100px;
 	background-repeat: no-repeat;
@@ -335,6 +335,7 @@ footer {
 		&__right {
 			background: white;
 			padding: 0 1em 0;
+			height: 80vh;
 		  }
 	}
   }
@@ -384,7 +385,7 @@ footer {
 	top: 150px;
 	width: 99vw;
 	height: 800px;
-	z-index: 3;
+	z-index: 1;
 	line-height: 1.5;
 	cursor: pointer;
 	font-family: candara;
@@ -402,23 +403,30 @@ footer {
 .box {
 	width: 45vw;
 	text-decoration: none;
-	height: 40rem;
+	height: 30rem;
 	color: whitesmoke;
 	cursor: pointer;
 	display: flex;
 	flex-direction: column;
 	z-index: 5;
+	padding: 3px;
 
 	&:hover{
-		color: grey;
-		background-color: grey;
-		transition: all 0.3s ease;
+		background-color: whitesmoke;
+		border: 1px solid black;
+		transition: all 1.5s ease;
 	}
+}
+
+.read-more {
+	padding: 0;
+	margin-left: 40%;
+	color: black;
 }
 @media screen and (max-width: 600px) {
 	.box {
-		height: 50vh;
-		width: 45vw;
+		height: 55vh;
+		width: 75vw;
 		background-position-y: 0px;
 	}
 	.grid {
@@ -427,5 +435,9 @@ footer {
 	.main {
 		height: 700px;
 		padding: 1rem;
+	}
+	.read-more {
+		padding: 0;
+		color: black;
 	}
 }
