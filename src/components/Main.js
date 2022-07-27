@@ -88,8 +88,8 @@ const Main = () => {
                             <section id="talent">
                                 <div className="dj-title">Featuring</div>
                                 <ul className="dj-list">
-                                    <li>1:1 //</li>
-                                    <li> Portraits // </li>
+                                    <li>1:1 |</li>
+                                    <li> Portraits |</li>
                                     <li>Family</li>
                                 </ul>
                             </section>
