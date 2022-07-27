@@ -13,7 +13,7 @@ color: ${props => props.color === 'dark' ? darkTheme.text : darkTheme.body };
 position: fixed;
 left: 2rem;
 top: 1.5rem;
-z-index: 1;
+z-index: 3;
 `
 
 const LogoComponent = (props) => {

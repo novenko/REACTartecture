@@ -11,35 +11,11 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 `
-const Main = styled.div`
-padding: 2rem;
-top: 150px;
-width: 99vw;
-height: 800px;
-z-index: 3;
-line-height: 1.5;
-cursor: pointer;
-font-family: candara;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-between;
-`
-
-const Center = styled.div`
-display: flex;
-justify-content: center;
-align-items: center;
-padding-top: 1rem;
-`
-
-
 const Profile = () => {
     return (
             <MainContainer>
                 <LogoComponent theme='light' />
-                <Main>
-                <Center>
+                <div className="main">
                 <div className="spread">
                     <div className="spread__left">
                     </div>
@@ -74,8 +50,7 @@ const Profile = () => {
                         </div>
                     </div>
                     </div>
-                </Center>
-                </Main>
+                </div>
             </MainContainer>
     )
 }
