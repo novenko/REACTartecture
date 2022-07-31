@@ -8,7 +8,7 @@ const Box =  styled.div`
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
   color: ${(props) => props.theme.text};
   padding: 2rem;
-  width: 50vw;
+  width: 75vw;
   height: fit-content;
 
   z-index: 3;
@@ -40,14 +40,25 @@ return (
         animate={{height:'55vh'}}
         transition={{type: 'spring', duration:2, delay:1 }}
         >
-                    <h3>
-                        mastermonitor - grafana server
-                    </h3>
-                    <div className="mobile-shrink-2">
-                        <img src="/img/mastermonitor.png" alt="" width="600px" height="350px"/>
-                    </div>
-                    <p>tbc</p>
+          <h1 class="headline">Dark Themed Bathroom</h1>
+            <div class="article-meta">
+              <p class="byline">by: A.Wawrentowicz</p>
+              <p class="dateline">June 21, 2021</p>
+              <p class="article-tags">
+                <span class="tag">modern</span> <span class="tag">dark</span> <span class="tag featured">bathroom</span>
+              </p>
+            </div>
+            <p>It is animated by the speckled grey, stone tiles that line its walls and floor matched with the tactile black tiles. The bathroom is all black painted and warmed by wooden flat-panel cabinets.</p>
+            <aside>
+              <p>﹀</p>
+            </aside>
 
+            <figure>
+              <img src="/img/Bathroom1.png" alt="a smiling person in a pink hoodie, standing in front of a bright pink lighted arcade basketball game. " />
+              <img src="/img/Bathroom2.png" alt="a smiling person in a pink hoodie, standing in front of a bright pink lighted arcade basketball game. " />
+              <img src="/img/Bathroom3.png" alt="a smiling person in a pink hoodie, standing in front of a bright pink lighted arcade basketball game. " />
+            <figcaption>Design by aggie.pictures ©</figcaption>
+            </figure>
         </Box>
         <div className="bottom-space" />   
       </>

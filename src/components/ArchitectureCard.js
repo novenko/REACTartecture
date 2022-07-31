@@ -13,11 +13,15 @@ cursor: pointer;
 display: flex;
 flex-direction: column;
 z-index: 5;
-
 &:hover{
     color: ${props => props.theme.body};
     background-color: ${props => props.theme.text};
-    transition: all 0.3s ease;
+    transition: all 9s ease;
+}
+@media screen and (max-width: 600px) {
+		height: 55vh;
+		width: 75vw;
+		background-position-y: 0px;
 }
 `
 
@@ -60,9 +64,9 @@ color: black;
 
 //<Box target="_blank" to={{pathname: link}}>
 const ArchitectureCard = (props) => {
-    const {name, tags, date, imgSrc, link, readMore } = props.blog;
+    const {name, tags, date, imgSrc, link, seeMore } = props.blog;
     return (
-        <div className='box' target="_blank" to={{pathname: link}}>
+         <Box target="_blank" to={{pathname: link}}>
             <Image img={imgSrc} />
             <Title>
                 {name}
@@ -78,9 +82,9 @@ const ArchitectureCard = (props) => {
                 {date}
             </Date>
             <div className="read-more">
-                {readMore}
+                {seeMore}
             </div>
-        </div>
+        </Box>
     )
 }
 
