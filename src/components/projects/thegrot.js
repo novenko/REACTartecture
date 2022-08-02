@@ -54,8 +54,9 @@ return (
             </aside>
 
             <figure>
-              <img src="https://images.unsplash.com/photo-1503839769273-3a57baad6072?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXJjaHRlY3R1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="a smiling person in a pink hoodie, standing in front of a bright pink lighted arcade basketball game. " />
-            <figcaption>Design by aggie.pictures ©</figcaption>
+            <img src="/img/TheGrot2.png" alt=""/>
+            <img src="/img/TheGrot1.jpg" alt=""/>
+              <figcaption>Design by aggie.pictures ©</figcaption>
             </figure>
         </Box>
         <div className="bottom-space" />   

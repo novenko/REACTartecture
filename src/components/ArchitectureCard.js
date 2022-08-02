@@ -48,39 +48,17 @@ ${Box}:hover&{
     border: 1px solid ${props => props.theme.body};
 }
 `
-const HashTags = styled.div`
-padding: 0.5rem 0;
-color: black;
-`
-const Tag = styled.span`
-padding-right: 0.5 rem;
-color: black;
-`
-const Date = styled.span`
-padding: 2.5rem 0;
-color: black;
-`
-
 
 //<Box target="_blank" to={{pathname: link}}>
 const ArchitectureCard = (props) => {
-    const {name, tags, date, imgSrc, link, seeMore } = props.blog;
+    const {name, imgSrc, link, seeMore } = props.blog;
     return (
          <Box target="_blank" to={{pathname: link}}>
             <Image img={imgSrc} />
             <Title>
                 {name}
             </Title>
-            <HashTags>
-                {
-                    tags.map((t, id) => {
-                        return <Tag key={id}> #{t} </Tag>
-                    })
-                }
-            </HashTags> 
-            <Date>
-                {date}
-            </Date>
+
             <div className="read-more">
                 {seeMore}
             </div>
