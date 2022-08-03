@@ -78,19 +78,17 @@ const Main = () => {
                                 <p>Presents</p>
                             </header>
                             <main>
-                                <h3><i>SESSIONS START</i></h3>
+                                <h3><i>SUMMER SESSIONS</i></h3>
                             </main>
-                            <section id="date">
-                                <div className="circle-item">20th</div>
-                                <div className="circle-item">JULY</div>
-                                <div className="circle-item">2022</div>
-                            </section>
+                            <div className="venue">
+                                    <h3>STARTING FROM $100</h3><br />
+                                </div>
                             <section id="talent">
                                 <div className="dj-title">Featuring</div>
                                 <ul className="dj-list">
-                                    <li>1:1 |</li>
-                                    <li> Portraits |</li>
-                                    <li>Family</li>
+                                    <li>Portraits  |</li>
+                                    <li> Family |</li>
+                                    <li>1 : 1</li>
                                 </ul>
                             </section>
                             <footer>

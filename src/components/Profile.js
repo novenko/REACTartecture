@@ -22,6 +22,9 @@ const Profile = () => {
                     <div className="spread__right">
                         <div className="title" style={{'paddingTop':'20px'}}>
                             <h1 className="large"><span class="tiny">BUILDING</span> ROCK SOLID <span class="tiny">RELATIONS</span></h1>
+                            
+                        </div>
+                        <div className="title" style={{'paddingTop':'20px'}}>
                             <h1 className="small">
                             Believing in the detail of every stage.
                             </h1>
