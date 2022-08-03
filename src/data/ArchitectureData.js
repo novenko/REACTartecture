@@ -60,7 +60,7 @@ export const Posts = [
     {
         id:9,
         name:"Tennis Club",
-        imgSrc:"img/TennisClub1.jpg", 
+        imgSrc:"img/TennisClub2.jpg", 
         link:"/architecture/tennisclub",
         seeMore: "See more..."
     },
