@@ -18,33 +18,29 @@ const Profile = () => {
                 <div className="main">
                 <div className="spread">
                     <div className="spread__left">
+                        <div className="profile_poster">
+                        </div>
                     </div>
                     <div className="spread__right">
-                        <div className="title" style={{'paddingTop':'20px'}}>
-                            <h1 className="large"><span class="tiny">BUILDING</span> ROCK SOLID <span class="tiny">RELATIONS</span></h1>
+                        <div className="title" style={{'paddingTop':'10px'}}>
+                            <h1 className="large">AGGIE</h1>
                             
                         </div>
-                        <div className="title" style={{'paddingTop':'20px'}}>
-                            <h1 className="small">
-                            Believing in the detail of every stage.
-                            </h1>
+                        <div className="title" style={{'paddingTop':'2px'}}>
+                            <h3 className="small">
+                            DIRECTOR, M. ARCH
+                            </h3>
                         </div>
-                        <div className="content">
-                        <div className="fr" lang="fr">
-                            
+                        <div>
                             <p>
-                            To us "state-of-the-art" means innovation in every process, quality and efficiency in every task, expertise and know-how in every step, respect, loyalty and trust for all customers and employees. Always with environmental and social consciousness.
-                            </p>
-                            
-                        </div>
-                        <div className="en" lang="en">
-                        <p>
-                            The expertise, an efficient process and the courage to embrace any challenge with the joy, responsability and determination that defines us.
+                            Aggie is an expert on providing architectural and design services : technical drawings, conceptual drawings, 3d modelling, illustrations and high quality visualizations. 
                             </p>
                             <p>
-                            A never-ending search for perfection has led us to a stage of maturity that makes us see with clarity solutions where others still see problems.
+                            Aggie worked in the architecture industry in Canada, Poland and Sweden. Aggie received a Masters of Architecture from the KTH Royal Institute of Technology in Stockholm, Sweden.
                             </p>
-                        </div>
+                            <p>
+                            Aggie believes in the detail of every stage, always with environmental and social consciousness.
+                            </p>
                         </div>
                         <div className="spread__page-bottom">
                         <i className="fas fa-bicycle fa-4x"></i>
