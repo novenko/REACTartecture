@@ -19,10 +19,11 @@ const Profile = () => {
                 <div className="spread">
                     <div className="spread__left">
                         <div className="profile_poster">
+                        <img src="/img/me.jpeg" height="100%" alt="childs bedroom" />
                         </div>
                     </div>
                     <div className="spread__right">
-                        <div className="title" style={{'paddingTop':'10px'}}>
+                        <div className="title" style={{'paddingTop':'25px'}}>
                             <h1 className="large">AGGIE</h1>
                             
                         </div>
@@ -45,7 +46,6 @@ const Profile = () => {
                         <div className="spread__page-bottom">
                         <i className="fas fa-bicycle fa-4x"></i>
                         <p>aggie.pictures@pm.me</p>
-                        <div className="num">✤</div>
                         </div>
                     </div>
                     </div>
