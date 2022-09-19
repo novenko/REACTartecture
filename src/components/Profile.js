@@ -19,7 +19,7 @@ const Profile = () => {
                 <div className="spread">
                     <div className="spread__left">
                         <div className="profile_poster">
-                        <img src="/img/me.jpeg" height="100%" alt="childs bedroom" />
+                        <img src="/img/me.jpeg" height="100%" alt="." />
                         </div>
                     </div>
                     <div className="spread__right">
