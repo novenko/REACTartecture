@@ -19,8 +19,8 @@ z-index: 3;
 const LogoComponent = (props) => {
     return (
         <Logo color={props.theme}>
-            <NavLink to="/" style={{ color: 'black', textDecoration:'none', fontSize: '1em' }}>
-                .www
+            <NavLink to="/" style={{ color: 'black', textDecoration:'none', fontSize: '0.65em', marginBottom:'5px' }}>
+                www
             </NavLink>
         </Logo>
     )

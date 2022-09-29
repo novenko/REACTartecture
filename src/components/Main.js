@@ -71,34 +71,6 @@ const Main = () => {
                 <LogoComponent />
                 <Center>
                     <div className="poster">
-                        <div className="lens-flare"></div>
-                        <div className="info">
-                            <header>
-                                <h3>AGGIE PICTURES</h3>
-                                <p>Presents</p>
-                            </header>
-                            <main>
-                                <h3><i>SUMMER SESSIONS</i></h3>
-                            </main>
-                            <div className="venue">
-                                    <h3>STARTING FROM $100</h3><br />
-                                </div>
-                            <section id="talent">
-                                <div className="dj-title">Featuring</div>
-                                <ul className="dj-list">
-                                    <li>Portraits  |</li>
-                                    <li> Family |</li>
-                                    <li>1 : 1</li>
-                                </ul>
-                            </section>
-                            <footer>
-                                <div className="venue">
-                                    <h3>BOOK YOUR SPOT</h3><br />
-                                    <h3>Alberta // British Columbia</h3><br />
-                                    <h3><small>aggie.pictures@pm.me</small></h3>
-                                </div>
-                            </footer>
-                        </div>
                     </div>
                 </Center>
                 <PROFILE to="/profile">

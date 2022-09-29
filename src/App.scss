@@ -41,19 +41,18 @@ ul {
 }
 
 .poster {
-	height: 50vh;
-	max-width: 700px;
+	height: 55vh;
 	top: 25px;
 	width: 35vw;
-	background-image: url("https://images.unsplash.com/photo-1426543881949-cbd9a76740a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fG1vdXRhaW5zJTIwY291cGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+	background-image: url("/assets/img/aggiepictures.jpg");
 	background-size: cover;
 	background-position-y: -250px;
 	background-repeat: no-repeat;
 	position: relative;
 	font-family: "PT Sans Narrow", sans-serif;
 	overflow: hidden;
-	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-	border: 10px solid rgb(34, 33, 33);
+	// box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	// border: 10px solid rgb(34, 33, 33);
 }
 
 
@@ -223,7 +222,7 @@ footer {
 
 @media screen and (max-width: 600px) {
 	.poster {
-		height: 80vh;
+		height: 50vh;
 		width: 85vw;
 		background-position-y: 0px;
 	}
@@ -290,11 +289,11 @@ footer {
 	text-align: justify;
   }
   .profile_poster {
-	height: 480px;
+	// height: 480px;
 	width: 330px;
 	// background-image: url("me.jpeg");
 	background-size: cover;
-	border: 10px solid rgb(34, 33, 33);
+	// border: 10px solid rgb(34, 33, 33);
 	margin: 0 auto;
 }
   .spread {
