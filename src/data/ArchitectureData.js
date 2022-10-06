@@ -64,4 +64,11 @@ export const Posts = [
         link:"/architecture/tennisclub",
         seeMore: "See more..."
     },
+    {
+        id:10,
+        name:"Terrazzo Bathroom",
+        imgSrc:"img/Terrazzo1.jpeg", 
+        link:"/architecture/terrazzo",
+        seeMore: "See more..."
+    },
 ] 

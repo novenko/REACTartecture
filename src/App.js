@@ -18,6 +18,7 @@ import SilvanElve from './components/projects/silvanelve';
 import TheGrot from './components/projects/thegrot';
 import LearningCommons from './components/projects/learningcommons';
 import TennisClub from './components/projects/tennisclub';
+import Terrazzo from './components/projects/terrazzo';
 
 
 
@@ -39,6 +40,7 @@ function App() {
         <Route exact path="/architecture/thegrot" component={TheGrot} />
         <Route exact path="/architecture/learningcommon" component={LearningCommons} />
         <Route exact path="/architecture/tennisclub" component={TennisClub} />
+        <Route exact path="/architecture/terrazzo" component={Terrazzo} />
         <Route exact path="/profile" component={Profile} />
       </Switch>
     </ThemeProvider>
