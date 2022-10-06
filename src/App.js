@@ -19,6 +19,7 @@ import TheGrot from './components/projects/thegrot';
 import LearningCommons from './components/projects/learningcommons';
 import TennisClub from './components/projects/tennisclub';
 import Terrazzo from './components/projects/terrazzo';
+import Cabin from './components/projects/cabin';
 
 
 
@@ -41,6 +42,7 @@ function App() {
         <Route exact path="/architecture/learningcommon" component={LearningCommons} />
         <Route exact path="/architecture/tennisclub" component={TennisClub} />
         <Route exact path="/architecture/terrazzo" component={Terrazzo} />
+        <Route exact path="/architecture/cabin" component={Cabin} />
         <Route exact path="/profile" component={Profile} />
       </Switch>
     </ThemeProvider>

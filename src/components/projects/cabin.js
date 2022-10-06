@@ -30,7 +30,7 @@ const Box =  styled.div`
 `
 
 
-const Terrazzo = () => {
+const Cabin = () => {
 
 return (
     <>
@@ -40,25 +40,24 @@ return (
         animate={{height:'55vh'}}
         transition={{type: 'spring', duration:2, delay:1 }}
         >
-          <h1 class="headline">Terrazzo Bathroom</h1>
+          <h1 class="headline">Cabin</h1>
             <div class="article-meta">
               <p class="byline">by: A.Wawrentowicz</p>
-              <p class="dateline">Sept 1, 2022</p>
+              <p class="dateline">Aug 15, 2022</p>
               <p class="article-tags">
-                <span class="tag">retro</span> <span class="tag">small</span> <span class="tag featured">terrazzo</span>
+                <span class="tag">outback</span> <span class="tag">wild</span> <span class="tag featured">nature</span>
               </p>
             </div>
             <p>
-              The Comeback of Retro Design. From elegant and sophisticated to bright and cheery. A terrazzo treatment dapples the floor and the walls with movement. It's funkiness breaks out the dark green features and visually enlarges the space.
+            By designing a linear floor plan and combining it with a sloping ceiling and expansive glazed openings, cabin is a very open space that has the ability to be manipulated in various ways. This particular unit was designed for somebody who is using it as an escape from his daily life in a large city. The scent of the natural wood underlines the perception as a hut and calms pleasant.
             </p>
             <aside>
               <p>﹀</p>
             </aside>
 
             <figure>
-              <img src="/img/Terrazzo1.jpg" alt="" />
-              <img src="/img/Terrazzo2.jpg" alt="" />
-              <img src="/img/Terrazzo3.jpg" alt="" />
+              <img src="/img/Cabin1.jpg" alt="" />
+              <img src="/img/Cabin2.jpg" alt="" />
             <figcaption>Design by aggie.pictures ©</figcaption>
             </figure>
         </Box>
@@ -67,4 +66,4 @@ return (
   )
 }
 
-export default Terrazzo
+export default Cabin
